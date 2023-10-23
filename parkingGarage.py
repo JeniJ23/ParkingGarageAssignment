@@ -1,5 +1,4 @@
 # Start Your Code here
-# Start Your Code here
 class ParkingGarage:
     def __init__(self, total_spaces = 50):
         self.tickets = list(range(1, total_spaces + 1))
