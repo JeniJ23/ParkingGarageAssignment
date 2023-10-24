@@ -1,5 +1,5 @@
 class ParkingGarage:
-    def __init__(self, total_tickets, total_parking_spaces):
+    def __init__(self, total_tickets, total_parking_spaces = 50):
         self.total_tickets = total_tickets
         self.total_parking_spaces = total_parking_spaces
         self.current_ticket = {}
